@@ -17,18 +17,18 @@ import Transition from './transition'
 import Breadcrumb from './breadcrumb'
 import Tabs from './tabs'
 import Tag from './tag'
+import Affix from './affix'
 import Progress from './progress'
 import ToolTip from './tooltip'
 import Popover from './popover'
 import Popconfirm from './popconfirm'
 import Timeline from './timeline'
 import Dropdown from './dropdown'
-<<<<<<< HEAD
 import Other from './other'
-=======
 import Avatar from './avatar'
 import Steps from './steps'
->>>>>>> antue/master
+import TimePicker from './timepicker'
+import BackTop from './back-top'
 
 Vue.use(Router)
 
@@ -99,6 +99,10 @@ let router = new Router({
       component: Tag
     },
     {
+      path: '/affix',
+      component: Affix
+    },
+    {
       path: '/progress',
       component: Progress
     },
@@ -123,20 +127,28 @@ let router = new Router({
       component: Dropdown
     },
     {
-<<<<<<< HEAD
       path: '/backtop',
       component: Other
-=======
+    },
+    {
       path: '/badge',
       component: Badge
     },
     {
       path: '/avatar',
       component: Avatar
-    }, {
+    },
+    {
       path: '/steps',
       component: Steps
->>>>>>> antue/master
+    },
+    {
+      path: '/timepicker',
+      component: TimePicker
+    },
+    {
+      path: '/backtop',
+      component: BackTop
     }
   ]
 })

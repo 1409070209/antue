@@ -79,6 +79,10 @@ export default {
           title: 'Navigation',
           items: [
             {
+              title: 'Affix 固钉',
+              route: 'affix'
+            },
+            {
               title: 'Breadcrumb 面包屑',
               route: 'breadcrumb'
             },
@@ -122,6 +126,10 @@ export default {
             {
               title: 'Switch 开关',
               route: 'switch'
+            },
+            {
+              title: 'TimePicker 时间选择框',
+              route: 'timepicker'
             }
           ]
         },

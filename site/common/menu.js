@@ -70,6 +70,10 @@ const menu = {
           title: 'Navigation',
           items: [
             {
+              title: 'Affix 固钉',
+              route: 'compAffixIndexZh'
+            },
+            {
               title: 'Breadcrumb 面包屑',
               route: 'compBreadcrumbIndexZh'
             },
@@ -142,6 +146,10 @@ const menu = {
             {
               title: 'Switch 开关',
               route: 'compSwitchIndexZh'
+            },
+            {
+              title: 'TimePicker 时间选择框',
+              route: 'compTimepickerIndexZh'
             }
           ]
         },
@@ -153,14 +161,26 @@ const menu = {
               route: 'compMessageIndexZh'
             },
             {
+              title: 'Notification 通知提醒框',
+              route: 'compNotificationIndexZh'
+            },
+            {
+              title: 'Progress 进度条',
+              route: 'compProgressIndexZh'
+            },
+            {
               title: 'Popconfirm 气泡确认框',
               route: 'compPopconfirmIndexZh'
             }
           ]
         },
         {
-          title: 'Transition',
+          title: 'Other',
           items: [
+            {
+              title: 'BackTop 回到顶部',
+              route: 'compBacktopIndexZh'
+            },
             {
               title: 'Transition 动画',
               route: 'compTransitionIndexZh'
